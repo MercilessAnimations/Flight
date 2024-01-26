@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>3D Game Prototype</title>
-  <style>
-    body { margin: 0; }
-    canvas { display: block; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <canvas id="gameCanvas"></canvas>
+  <div id="instructions">
+    <h2>Instructions</h2>
+    <p>Use WASD keys to move the player.</p>
+    <p>Press Spacebar to glide.</p>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="game.js"></script>
 </body>
