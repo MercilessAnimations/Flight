@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+  }
+  
+  canvas {
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px #ffffff;
+  }
+  
+  #instructions {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
